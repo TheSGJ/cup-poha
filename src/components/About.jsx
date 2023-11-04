@@ -5,107 +5,85 @@ export default function About() {
   return (
     <div className="container">
       <Helmet>
-        <title>About - Service TM</title>
+        <title>About - Cup Poha</title>
       </Helmet>
       <div className="container my-3">
-      <h2 className="text-xl text-center font-bold my-4">About - Service TW</h2>
-        <h5 className="text-2xl font-bold my-2 tracking-tight text-gray-900 dark:text-white">
-          Service sector companies have grown in the past for few decades. But
-          thier few service sector companies which outperforms the others
-        </h5>
-        <p className="font-normal my-2 text-gray-700 dark:text-gray-400">
-          Service TW is one of startup to provide excellent service. Service
-          sector companies have played a significant role in the tech industry
-          and it's motive is to help other tech companies or even governments to
-          provide. These we have a lot of service companies lying around and you
-          need the right one to fullfill your needs. So Contact Service TW today
-          and quote a deal with us.
+        <h2 className="text-xl text-center font-bold my-4">About - Service TW</h2>
+        <p>
+          Instant Cup Poha is designed to cater to the busy lives of individuals who
+          crave a tasty meal but lack the time to prepare one. With this innovative
+          product, you can enjoy the rich flavors of poha without the hassle of
+          cooking it from scratch.
         </p>
-      
+        <h3>The Preparation</h3>
+        <p>
+          Preparing Instant Cup Poha is as simple as it gets. Just add hot water to
+          the cup, stir, and wait for 3 minutes. In no time, you'll have a steaming
+          hot serving of poha ready to delight your taste buds.
+        </p>
+        <h2>The Success of Instant Cup Poha</h2>
+        <p>
+          Instant Cup Poha has already garnered a lot of attention and praise. It has
+          become a favorite among students, working professionals, and anyone looking
+          for a quick and satisfying meal option. The convenience it offers without
+          compromising on taste has made it a hit.
+        </p>
+        <h3>The Role of Marketing</h3>
+        <p>
+          Arvind Kumar, the Marketing Salesman, has played a pivotal role in promoting
+          Instant Cup Poha. His efforts have led to increased awareness and demand for
+          the product.
+        </p>
+        <h3>The Future</h3>
+        <p>
+          The Business Blasters have big plans for the future. They aim to expand
+          their reach and introduce more flavors and variations of Instant Cup Poha to
+          cater to diverse tastes.
+        </p>
+        <h2>Conclusion</h2>
+        <p>
+          In a world driven by innovation and convenience, the Business Blasters from
+          Rajkiya Sarvodaya Bal Vidyalaya have introduced an exciting concept -
+          Instant Cup Poha. This quick, delicious meal option is a testament to the
+          creativity and entrepreneurial spirit of these young individuals. With the
+          dedication of Yogesh Prajapati, Shri Ganesh Jha, Arvind Kumar, Love Sharma,
+          Yash Kumar, and Mukesh Bhandari, Instant Cup Poha is poised for a bright
+          future.
+        </p>
+
       </div>
       <h2 className="text-xl font-bold text-center my-4">FAQs:</h2>
       <Accordion flush={true}>
         <Accordion.Panel>
-          <Accordion.Title>What is Flowbite?</Accordion.Title>
+          <Accordion.Title>How did the idea for Instant Cup Poha originate?</Accordion.Title>
           <Accordion.Content>
             <p className="mb-2 text-gray-500 dark:text-gray-400">
-              Flowbite is an open-source library of interactive components built
-              on top of Tailwind CSS including buttons, dropdowns, modals,
-              navbars, and more.
-            </p>
-            <p className="text-gray-500 dark:text-gray-400">
-              Check out this guide to learn how to{" "}
-              <a
-                href="https://flowbite.com/docs/getting-started/introduction/"
-                className="text-blue-600 hover:underline dark:text-blue-500"
-              >
-                get started
-              </a>{" "}
-              and start developing websites even faster with components on top
-              of Tailwind CSS.
+              The
+              idea was born out of the students' desire to create a quick, easy, and
+              delicious meal option, inspired by the convenience of cup noodles.
             </p>
           </Accordion.Content>
         </Accordion.Panel>
         <Accordion.Panel>
-          <Accordion.Title>Is there a Figma file available?</Accordion.Title>
+          <Accordion.Title>Who are the key individuals behind the Instant Cup Poha project?</Accordion.Title>
           <Accordion.Content>
             <p className="mb-2 text-gray-500 dark:text-gray-400">
-              Flowbite is first conceptualized and designed using the Figma
-              software so everything you see in the library has a design
-              equivalent in our Figma file.
-            </p>
-            <p className="text-gray-500 dark:text-gray-400">
-              Check out the{" "}
-              <a
-                href="https://flowbite.com/figma/"
-                className="text-blue-600 hover:underline dark:text-blue-500"
-              >
-                Figma design system
-              </a>{" "}
-              based on the utility classes from Tailwind CSS and components from
-              Flowbite.
+              The project is led by Yogesh Prajapati, with Shri Ganesh Jha, Arvind
+              Kumar, Love Sharma, Yash Kumar, and Mukesh Bhandari each playing unique
+              and essential roles.
             </p>
           </Accordion.Content>
         </Accordion.Panel>
         <Accordion.Panel>
           <Accordion.Title>
-            What are the differences between Flowbite and Tailwind UI?
+            What are the future plans for the Business Blasters and Instant Cup
+            Poha?
           </Accordion.Title>
           <Accordion.Content>
             <p className="mb-2 text-gray-500 dark:text-gray-400">
-              The main difference is that the core components from Flowbite are
-              open source under the MIT license, whereas Tailwind UI is a paid
-              product. Another difference is that Flowbite relies on smaller and
-              standalone components, whereas Tailwind UI offers sections of
-              pages.
+              The team aims to expand their product line, introduce new flavors, and
+              reach a broader audience with their innovative meal concept.
             </p>
-            <p className="mb-2 text-gray-500 dark:text-gray-400">
-              However, we actually recommend using both Flowbite, Flowbite Pro,
-              and even Tailwind UI as there is no technical reason stopping you
-              from using the best of two worlds.
-            </p>
-            <p className="mb-2 text-gray-500 dark:text-gray-400">
-              Learn more about these technologies:
-            </p>
-            <ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
-              <li>
-                <a
-                  href="https://flowbite.com/pro/"
-                  className="text-blue-600 hover:underline dark:text-blue-500"
-                >
-                  Flowbite Pro
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://tailwindui.com/"
-                  rel="nofollow"
-                  className="text-blue-600 hover:underline dark:text-blue-500"
-                >
-                  Tailwind UI
-                </a>
-              </li>
-            </ul>
           </Accordion.Content>
         </Accordion.Panel>
       </Accordion>
