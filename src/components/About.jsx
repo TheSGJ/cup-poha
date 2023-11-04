@@ -8,7 +8,7 @@ export default function About() {
         <title>About - Cup Poha</title>
       </Helmet>
       <div className="container my-3">
-        <h2 className="text-xl text-center font-bold my-4">About - Service TW</h2>
+        <h2 className="text-xl text-center font-bold my-4">About - Cup Poha</h2>
         <p>
           Instant Cup Poha is designed to cater to the busy lives of individuals who
           crave a tasty meal but lack the time to prepare one. With this innovative
