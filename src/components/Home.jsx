@@ -131,6 +131,7 @@ export default function Home() {
             Yash Kumar, and Mukesh Bhandari, Instant Cup Poha is poised for a bright
             future.
           </p>
+          <hr />
           <p>
             <b>Cup Poha</b> powered by <b>The Business Blasters</b>
           </p>
@@ -141,7 +142,7 @@ export default function Home() {
             />
           </p>
 
-        </div>;
+        </div>
 
       </div>
     </div>
