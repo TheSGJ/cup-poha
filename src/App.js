@@ -8,21 +8,31 @@ import Contact from "./components/Contact";
 import { Container } from "@mui/material";
 import Navbar from "./components/Navbar";
 import Service from "./components/Service";
+import NextTopLoader from "nextjs-toploader";
 
 function App() {
   return (
     <div className="dark:bg-gray-900">
       <Router>
-      <Navbar />
-          <Container>
+        <NextTopLoader
+          color="green"
+          easing="ease-in-out"
+          height={2}
+          shadow={false}
+          showSpinner={false}
+          crawl={false}
+          speed={400}
+        />
+        <Navbar />
+        <Container>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/service" element={<Service />} />
           </Routes>
-          </Container>
-      <Footer />
+        </Container>
+        <Footer />
       </Router>
 
     </div>

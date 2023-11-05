@@ -17,6 +17,7 @@
     "add": "^2.0.6",
     "flowbite": "^1.4.7",
     "flowbite-react": "^0.0.25",
+    "nextjs-toploader": "^1.6.4",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
