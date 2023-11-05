@@ -90,6 +90,10 @@ export default function Home() {
             src="https://www.rigelgrinmedia.live/_next/image?url=https://rigelgrinmedia.github.io/cdn/img/blog/ofcpe.jpg&w=1080&q=75"
             alt="Cup Poha Banner"
           />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-E3erdfyrPYBeMtwvt3As04LY4yJkY6YnaQ&usqp=CAU"
+            alt="Business Blasters"
+          />
         </Carousel>
         </div>
           <h3>The Preparation</h3>
