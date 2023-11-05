@@ -84,6 +84,14 @@ export default function Home() {
             product, you can enjoy the rich flavors of poha without the hassle of
             cooking it from scratch.
           </p>
+        <div className="my-4">
+        <Carousel>
+          <img
+            src="https://www.rigelgrinmedia.live/_next/image?url=https://rigelgrinmedia.github.io/cdn/img/blog/ofcpe.jpg&w=1080&q=75"
+            alt="Cup Poha Banner"
+          />
+        </Carousel>
+        </div>
           <h3>The Preparation</h3>
           <p>
             Preparing Instant Cup Poha is as simple as it gets. Just add hot water to
