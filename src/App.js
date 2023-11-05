@@ -17,7 +17,7 @@ function App() {
         <NextTopLoader
           color="green"
           easing="ease-in-out"
-          height={2}
+          height={5}
           shadow={false}
           showSpinner={false}
           crawl={false}
