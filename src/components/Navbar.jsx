@@ -30,7 +30,7 @@ export default function Navbar() {
           </span>
         </span>
         <div className="flex md:order-2">
-            <img src="https://cdn.jsdelivr.net/gh/rigelgrinmedia/cdn/img/rigelgrin/status.png" className="mr-3 h-7 sm:h-9" alt="Celebrating 75 years of Freedom in India" />
+            <img src="https://cdn.jsdelivr.net/gh/rigelgrinmedia/cdn/img/rigelgrin/status.png" className="m-3 h-8 sm:h-10" alt="Celebrating 75 years of Freedom in India" />
                        
           <button
             data-collapse-toggle="mobile-menu-4"
