@@ -102,7 +102,7 @@ export default function About() {
           </Accordion.Title>
           <Accordion.Content>
             <p className="mb-2 text-gray-500 dark:text-gray-400">
-            
+            Quality testing of Cup Poha, a brand known for its delicious and convenient instant poha, involves assessing various aspects such as taste, texture, aroma, appearance, and safety. Cup Poha is a trusted choice for those seeking a quick and flavorful meal, and it proudly boasts "No Added Preservatives."
             </p>
           </Accordion.Content>
         </Accordion.Panel>
