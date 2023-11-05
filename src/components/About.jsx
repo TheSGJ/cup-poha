@@ -86,6 +86,26 @@ export default function About() {
             </p>
           </Accordion.Content>
         </Accordion.Panel>
+        <Accordion.Panel>
+          <Accordion.Title>
+            Ingredients
+          </Accordion.Title>
+          <Accordion.Content>
+            <p className="mb-2 text-gray-500 dark:text-gray-400">
+            Rice Flakes (70%), Edible Vegetable Fat, Peanuts, Dehydrated Onion Flakes, Salt, Sugar, Green Chilli, Curry Leaves, Lemon Powder And Spice Mix.
+            </p>
+          </Accordion.Content>
+        </Accordion.Panel>
+        <Accordion.Panel>
+          <Accordion.Title>
+            Quality Testing
+          </Accordion.Title>
+          <Accordion.Content>
+            <p className="mb-2 text-gray-500 dark:text-gray-400">
+            
+            </p>
+          </Accordion.Content>
+        </Accordion.Panel>
       </Accordion>
     </div>
   );
