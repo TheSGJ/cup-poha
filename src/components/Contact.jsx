@@ -60,7 +60,7 @@ const Contact = () => {
               Feedback
             </h1>
           </div>
-          <form onSubmit={handleSubmit} className="lg:w-1/2 md:w-2/3 mx-auto pageclip-form" action="https://send.pageclip.co/sDXVHczZsefwuyklGQNhkV5wDzdU279y"
+          <form className="lg:w-1/2 md:w-2/3 mx-auto pageclip-form" action="https://send.pageclip.co/sDXVHczZsefwuyklGQNhkV5wDzdU279y"
   method="post">
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-full">
